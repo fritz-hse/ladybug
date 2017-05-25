@@ -1,0 +1,39 @@
+/** Fritz's Hac... er... CSS */
+
+header {
+    background-color: #9D2235;
+    color: white;
+    overflow: hidden;
+}
+
+a.logo {
+    display: block;
+    text-indent: -9999px;
+    background: url(../img/HSE_Logo_White.svg);
+    height: 100%;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+h1.logo.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: 500;
+}
+
+p.lead {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+ul.buttons-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.buttons-list li {
+    margin: 2rem 0;
+}
