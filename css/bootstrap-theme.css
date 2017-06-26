@@ -37,7 +37,8 @@ ul.buttons-list {
 }
 
 ul.buttons-list li {
-    margin: 2rem 2rem 2rem 0;
+
+    margin: 1rem 2rem 1rem 0;
     float: left;
     
 }
@@ -71,3 +72,7 @@ ul.buttons-list {
     overflow: hidden;
 }
 
+header > h1.logo.container {
+    font-weight: 100;
+    font-size: 4rem;
+}
