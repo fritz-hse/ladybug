@@ -37,7 +37,9 @@ ul.buttons-list {
 }
 
 ul.buttons-list li {
-    margin: 2rem 0;
+    margin: 2rem 2rem 2rem 0;
+    float: left;
+    
 }
 
 
@@ -64,8 +66,8 @@ button.btn:hover {
     color: white;
 }
 
-.buttonline {
 
-float: left;
-margin-right: 2rem;
+ul.buttons-list {
+    overflow: hidden;
 }
+
