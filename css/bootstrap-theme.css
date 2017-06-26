@@ -76,3 +76,14 @@ header > h1.logo.container {
     font-weight: 100;
     font-size: 4rem;
 }
+
+div[role=main] > p.lead {
+    font-size: 3rem;
+    margin: 2rem 0 4rem 0;
+    color: #56131d;
+    font-weight: 500;
+}
+
+html, body {
+    color: #212d40;
+}
