@@ -33,6 +33,13 @@ a.logo {
     height: 8rem;
 }
 
+h1.logo span {
+    display: block;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
 h1.logo.container {
     margin-top: 2rem;
     margin-bottom: 2rem;
