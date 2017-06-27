@@ -135,6 +135,7 @@ p {
     background-size: cover;
     background-image: url('../img/ladybug-bg.jpg');
     position: relative;
+    min-height: 300px;
 }
 
 .splash:before {
