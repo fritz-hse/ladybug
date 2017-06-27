@@ -1,9 +1,25 @@
 /** Fritz's Hac... er... CSS */
 
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    height: 100%;
+}
+
+.container {
+    flex: 1 0 auto;
+    padding: 20px;
+}
+
 header {
     background-color: #9D2235;
     color: white;
     overflow: hidden;
+    flex: 1 0 auto;
 }
 
 a.logo {
@@ -105,6 +121,83 @@ footer a {
     text-decoration: underline
 }
 
+footer a:hover {
+    color: #8F95A3;
+}
+
 p {
     font-size: 1.5rem
+}
+
+.splash {
+    height: 45vh;
+    max-height: 964px;
+    background-size: cover;
+    background-image: url('../img/ladybug-bg.jpg');
+    position: relative;
+}
+
+.splash:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	/* background: -moz-linear-gradient(top, rgba(255,255,255,0) 75%, rgba(255,255,255,0.09) 76%, rgba(255,255,255,1) 86%); /* FF3.6-15 */
+	/* background: -webkit-linear-gradient(top, rgba(255,255,255,0) 75%,rgba(255,255,255,0.09) 76%,rgba(255,255,255,1) 86%); /* Chrome10-25,Safari5.1-6 */
+	/* background: linear-gradient(to bottom, rgba(255,255,255,0) 75%,rgba(255,255,255,0.09) 76%,rgba(255,255,255,1) 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	/* opacity: 0.98; */
+  }
+
+span.socmed > a {
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+span.socmed > a:before {
+    color: #fff;
+    float: left;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 0 0.5rem;
+    text-indent: 0;
+}
+
+span.socmed > a:hover:before {
+	color: #8F95A3;
+}
+
+
+@media screen and (max-width: 767px) {
+
+span.socmed > a:before {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin: 3rem 2rem 0 ;
+    float: left;
+}
+
+span.socmed {
+    text-align: center;
+    width: 100%;
+}
+
+div.splash {
+    display: none;
+    visibility: hidden;
+}
+
+ul.buttons-list li {
+    width: 100%;
+    }
+
+ul.buttons-list li > button.btn {
+    width: 100%;
+    }
+
+
+
 }
