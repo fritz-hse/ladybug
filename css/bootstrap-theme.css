@@ -163,6 +163,8 @@ span.socmed > a {
     display: inline-block;
     overflow: hidden;
     text-indent: -9999px;
+    text-decoration: none;
+    overflow: visible;
 }
 
 span.socmed > a:before {
